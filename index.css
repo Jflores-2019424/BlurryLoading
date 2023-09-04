@@ -2,3 +2,29 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.bg{
+    background: url("./img/Eeveelutions.png")
+        center center/cover;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    width: 105%;
+    height: 105%;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.text{
+    color: black;
+    font-size: 80px;
+    font-weight: bolder;
+}
